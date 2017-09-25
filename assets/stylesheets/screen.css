@@ -76,7 +76,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
  */
 /* line 3, ../sass/hamburguers-source/_base.scss */
 .hamburger {
-  padding: 35px 35px;
+  padding: 22px 22px;
   display: inline-block;
   cursor: pointer;
   transition-property: opacity, filter;
@@ -97,8 +97,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 31, ../sass/hamburguers-source/_base.scss */
 .hamburger-box {
-  width: 40px;
-  height: 18px;
+  width: 31px;
+  height: 14.5px;
   display: inline-block;
   position: relative;
 }
@@ -107,13 +107,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .hamburger-inner {
   display: block;
   top: 50%;
-  margin-top: -1px;
+  margin-top: -0.75px;
 }
 /* line 43, ../sass/hamburguers-source/_base.scss */
 .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
-  width: 40px;
-  height: 2px;
-  background-color: #fff;
+  width: 31px;
+  height: 1.5px;
+  background-color: #eee;
   border-radius: 4px;
   position: absolute;
   transition-property: transform;
@@ -127,11 +127,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 /* line 62, ../sass/hamburguers-source/_base.scss */
 .hamburger-inner::before {
-  top: -8px;
+  top: -6.5px;
 }
 /* line 66, ../sass/hamburguers-source/_base.scss */
 .hamburger-inner::after {
-  bottom: -8px;
+  bottom: -6.5px;
 }
 
 /*
@@ -139,7 +139,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
  */
 /* line 6, ../sass/hamburguers-source/types/_3dx.scss */
 .hamburger--3dx .hamburger-box {
-  perspective: 80px;
+  perspective: 62px;
 }
 /* line 10, ../sass/hamburguers-source/types/_3dx.scss */
 .hamburger--3dx .hamburger-inner {
@@ -156,11 +156,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 /* line 25, ../sass/hamburguers-source/types/_3dx.scss */
 .hamburger--3dx.is-active .hamburger-inner::before {
-  transform: translate3d(0, 8px, 0) rotate(45deg);
+  transform: translate3d(0, 6.5px, 0) rotate(45deg);
 }
 /* line 29, ../sass/hamburguers-source/types/_3dx.scss */
 .hamburger--3dx.is-active .hamburger-inner::after {
-  transform: translate3d(0, -8px, 0) rotate(-45deg);
+  transform: translate3d(0, -6.5px, 0) rotate(-45deg);
 }
 
 /*
@@ -168,7 +168,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
  */
 /* line 6, ../sass/hamburguers-source/types/_3dx-r.scss */
 .hamburger--3dx-r .hamburger-box {
-  perspective: 80px;
+  perspective: 62px;
 }
 /* line 10, ../sass/hamburguers-source/types/_3dx-r.scss */
 .hamburger--3dx-r .hamburger-inner {
@@ -185,11 +185,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 /* line 25, ../sass/hamburguers-source/types/_3dx-r.scss */
 .hamburger--3dx-r.is-active .hamburger-inner::before {
-  transform: translate3d(0, 8px, 0) rotate(45deg);
+  transform: translate3d(0, 6.5px, 0) rotate(45deg);
 }
 /* line 29, ../sass/hamburguers-source/types/_3dx-r.scss */
 .hamburger--3dx-r.is-active .hamburger-inner::after {
-  transform: translate3d(0, -8px, 0) rotate(-45deg);
+  transform: translate3d(0, -6.5px, 0) rotate(-45deg);
 }
 
 /*
@@ -197,7 +197,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
  */
 /* line 6, ../sass/hamburguers-source/types/_3dy.scss */
 .hamburger--3dy .hamburger-box {
-  perspective: 80px;
+  perspective: 62px;
 }
 /* line 10, ../sass/hamburguers-source/types/_3dy.scss */
 .hamburger--3dy .hamburger-inner {
@@ -214,11 +214,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 /* line 25, ../sass/hamburguers-source/types/_3dy.scss */
 .hamburger--3dy.is-active .hamburger-inner::before {
-  transform: translate3d(0, 8px, 0) rotate(45deg);
+  transform: translate3d(0, 6.5px, 0) rotate(45deg);
 }
 /* line 29, ../sass/hamburguers-source/types/_3dy.scss */
 .hamburger--3dy.is-active .hamburger-inner::after {
-  transform: translate3d(0, -8px, 0) rotate(-45deg);
+  transform: translate3d(0, -6.5px, 0) rotate(-45deg);
 }
 
 /*
@@ -226,7 +226,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
  */
 /* line 6, ../sass/hamburguers-source/types/_3dy-r.scss */
 .hamburger--3dy-r .hamburger-box {
-  perspective: 80px;
+  perspective: 62px;
 }
 /* line 10, ../sass/hamburguers-source/types/_3dy-r.scss */
 .hamburger--3dy-r .hamburger-inner {
@@ -243,11 +243,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 /* line 25, ../sass/hamburguers-source/types/_3dy-r.scss */
 .hamburger--3dy-r.is-active .hamburger-inner::before {
-  transform: translate3d(0, 8px, 0) rotate(45deg);
+  transform: translate3d(0, 6.5px, 0) rotate(45deg);
 }
 /* line 29, ../sass/hamburguers-source/types/_3dy-r.scss */
 .hamburger--3dy-r.is-active .hamburger-inner::after {
-  transform: translate3d(0, -8px, 0) rotate(-45deg);
+  transform: translate3d(0, -6.5px, 0) rotate(-45deg);
 }
 
 /*
@@ -255,7 +255,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
  */
 /* line 6, ../sass/hamburguers-source/types/_3dxy.scss */
 .hamburger--3dxy .hamburger-box {
-  perspective: 80px;
+  perspective: 62px;
 }
 /* line 10, ../sass/hamburguers-source/types/_3dxy.scss */
 .hamburger--3dxy .hamburger-inner {
@@ -272,11 +272,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 /* line 25, ../sass/hamburguers-source/types/_3dxy.scss */
 .hamburger--3dxy.is-active .hamburger-inner::before {
-  transform: translate3d(0, 8px, 0) rotate(45deg);
+  transform: translate3d(0, 6.5px, 0) rotate(45deg);
 }
 /* line 29, ../sass/hamburguers-source/types/_3dxy.scss */
 .hamburger--3dxy.is-active .hamburger-inner::after {
-  transform: translate3d(0, -8px, 0) rotate(-45deg);
+  transform: translate3d(0, -6.5px, 0) rotate(-45deg);
 }
 
 /*
@@ -284,7 +284,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
  */
 /* line 6, ../sass/hamburguers-source/types/_3dxy-r.scss */
 .hamburger--3dxy-r .hamburger-box {
-  perspective: 80px;
+  perspective: 62px;
 }
 /* line 10, ../sass/hamburguers-source/types/_3dxy-r.scss */
 .hamburger--3dxy-r .hamburger-inner {
@@ -301,11 +301,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 /* line 25, ../sass/hamburguers-source/types/_3dxy-r.scss */
 .hamburger--3dxy-r.is-active .hamburger-inner::before {
-  transform: translate3d(0, 8px, 0) rotate(45deg);
+  transform: translate3d(0, 6.5px, 0) rotate(45deg);
 }
 /* line 29, ../sass/hamburguers-source/types/_3dxy-r.scss */
 .hamburger--3dxy-r.is-active .hamburger-inner::after {
-  transform: translate3d(0, -8px, 0) rotate(-45deg);
+  transform: translate3d(0, -6.5px, 0) rotate(-45deg);
 }
 
 /*
@@ -313,11 +313,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
  */
 /* line 7, ../sass/hamburguers-source/types/_arrow.scss */
 .hamburger--arrow.is-active .hamburger-inner::before {
-  transform: translate3d(-8px, 0, 0) rotate(-45deg) scale(0.7, 1);
+  transform: translate3d(-6.2px, 0, 0) rotate(-45deg) scale(0.7, 1);
 }
 /* line 11, ../sass/hamburguers-source/types/_arrow.scss */
 .hamburger--arrow.is-active .hamburger-inner::after {
-  transform: translate3d(-8px, 0, 0) rotate(45deg) scale(0.7, 1);
+  transform: translate3d(-6.2px, 0, 0) rotate(45deg) scale(0.7, 1);
 }
 
 /*
@@ -325,11 +325,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
  */
 /* line 7, ../sass/hamburguers-source/types/_arrow-r.scss */
 .hamburger--arrow-r.is-active .hamburger-inner::before {
-  transform: translate3d(8px, 0, 0) rotate(45deg) scale(0.7, 1);
+  transform: translate3d(6.2px, 0, 0) rotate(45deg) scale(0.7, 1);
 }
 /* line 11, ../sass/hamburguers-source/types/_arrow-r.scss */
 .hamburger--arrow-r.is-active .hamburger-inner::after {
-  transform: translate3d(8px, 0, 0) rotate(-45deg) scale(0.7, 1);
+  transform: translate3d(6.2px, 0, 0) rotate(-45deg) scale(0.7, 1);
 }
 
 /*
@@ -346,13 +346,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 20, ../sass/hamburguers-source/types/_arrowalt.scss */
 .hamburger--arrowalt.is-active .hamburger-inner::before {
   top: 0;
-  transform: translate3d(-8px, -10px, 0) rotate(-45deg) scale(0.7, 1);
+  transform: translate3d(-6.2px, -7.75px, 0) rotate(-45deg) scale(0.7, 1);
   transition: top 0.1s ease, transform 0.1s 0.1s cubic-bezier(0.895, 0.03, 0.685, 0.22);
 }
 /* line 27, ../sass/hamburguers-source/types/_arrowalt.scss */
 .hamburger--arrowalt.is-active .hamburger-inner::after {
   bottom: 0;
-  transform: translate3d(-8px, 10px, 0) rotate(45deg) scale(0.7, 1);
+  transform: translate3d(-6.2px, 7.75px, 0) rotate(45deg) scale(0.7, 1);
   transition: bottom 0.1s ease, transform 0.1s 0.1s cubic-bezier(0.895, 0.03, 0.685, 0.22);
 }
 
@@ -370,13 +370,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 20, ../sass/hamburguers-source/types/_arrowalt-r.scss */
 .hamburger--arrowalt-r.is-active .hamburger-inner::before {
   top: 0;
-  transform: translate3d(8px, -10px, 0) rotate(45deg) scale(0.7, 1);
+  transform: translate3d(6.2px, -7.75px, 0) rotate(45deg) scale(0.7, 1);
   transition: top 0.1s ease, transform 0.1s 0.1s cubic-bezier(0.895, 0.03, 0.685, 0.22);
 }
 /* line 27, ../sass/hamburguers-source/types/_arrowalt-r.scss */
 .hamburger--arrowalt-r.is-active .hamburger-inner::after {
   bottom: 0;
-  transform: translate3d(8px, 10px, 0) rotate(-45deg) scale(0.7, 1);
+  transform: translate3d(6.2px, 7.75px, 0) rotate(-45deg) scale(0.7, 1);
   transition: bottom 0.1s ease, transform 0.1s 0.1s cubic-bezier(0.895, 0.03, 0.685, 0.22);
 }
 
@@ -447,7 +447,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 /* line 13, ../sass/hamburguers-source/types/_collapse.scss */
 .hamburger--collapse .hamburger-inner::after {
-  top: -16px;
+  top: -13px;
   transition: top 0.2s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1), opacity 0.1s linear;
 }
 /* line 19, ../sass/hamburguers-source/types/_collapse.scss */
@@ -456,7 +456,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 /* line 26, ../sass/hamburguers-source/types/_collapse.scss */
 .hamburger--collapse.is-active .hamburger-inner {
-  transform: translate3d(0, -8px, 0) rotate(-45deg);
+  transform: translate3d(0, -6.5px, 0) rotate(-45deg);
   transition-delay: 0.22s;
   transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
 }
@@ -486,7 +486,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 /* line 13, ../sass/hamburguers-source/types/_collapse-r.scss */
 .hamburger--collapse-r .hamburger-inner::after {
-  top: -16px;
+  top: -13px;
   transition: top 0.2s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1), opacity 0.1s linear;
 }
 /* line 19, ../sass/hamburguers-source/types/_collapse-r.scss */
@@ -495,7 +495,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 /* line 26, ../sass/hamburguers-source/types/_collapse-r.scss */
 .hamburger--collapse-r.is-active .hamburger-inner {
-  transform: translate3d(0, -8px, 0) rotate(45deg);
+  transform: translate3d(0, -6.5px, 0) rotate(45deg);
   transition-delay: 0.22s;
   transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
 }
@@ -517,23 +517,23 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
  */
 /* line 6, ../sass/hamburguers-source/types/_elastic.scss */
 .hamburger--elastic .hamburger-inner {
-  top: 1px;
+  top: 0.75px;
   transition-duration: 0.275s;
   transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 /* line 11, ../sass/hamburguers-source/types/_elastic.scss */
 .hamburger--elastic .hamburger-inner::before {
-  top: 8px;
+  top: 6.5px;
   transition: opacity 0.125s 0.275s ease;
 }
 /* line 16, ../sass/hamburguers-source/types/_elastic.scss */
 .hamburger--elastic .hamburger-inner::after {
-  top: 16px;
+  top: 13px;
   transition: transform 0.275s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 /* line 23, ../sass/hamburguers-source/types/_elastic.scss */
 .hamburger--elastic.is-active .hamburger-inner {
-  transform: translate3d(0, 8px, 0) rotate(135deg);
+  transform: translate3d(0, 6.5px, 0) rotate(135deg);
   transition-delay: 0.075s;
 }
 /* line 29, ../sass/hamburguers-source/types/_elastic.scss */
@@ -543,7 +543,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 /* line 34, ../sass/hamburguers-source/types/_elastic.scss */
 .hamburger--elastic.is-active .hamburger-inner::after {
-  transform: translate3d(0, -16px, 0) rotate(-270deg);
+  transform: translate3d(0, -13px, 0) rotate(-270deg);
   transition-delay: 0.075s;
 }
 
@@ -552,23 +552,23 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
  */
 /* line 6, ../sass/hamburguers-source/types/_elastic-r.scss */
 .hamburger--elastic-r .hamburger-inner {
-  top: 1px;
+  top: 0.75px;
   transition-duration: 0.275s;
   transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 /* line 11, ../sass/hamburguers-source/types/_elastic-r.scss */
 .hamburger--elastic-r .hamburger-inner::before {
-  top: 8px;
+  top: 6.5px;
   transition: opacity 0.125s 0.275s ease;
 }
 /* line 16, ../sass/hamburguers-source/types/_elastic-r.scss */
 .hamburger--elastic-r .hamburger-inner::after {
-  top: 16px;
+  top: 13px;
   transition: transform 0.275s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 /* line 23, ../sass/hamburguers-source/types/_elastic-r.scss */
 .hamburger--elastic-r.is-active .hamburger-inner {
-  transform: translate3d(0, 8px, 0) rotate(-135deg);
+  transform: translate3d(0, 6.5px, 0) rotate(-135deg);
   transition-delay: 0.075s;
 }
 /* line 29, ../sass/hamburguers-source/types/_elastic-r.scss */
@@ -578,7 +578,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 /* line 34, ../sass/hamburguers-source/types/_elastic-r.scss */
 .hamburger--elastic-r.is-active .hamburger-inner::after {
-  transform: translate3d(0, -16px, 0) rotate(270deg);
+  transform: translate3d(0, -13px, 0) rotate(270deg);
   transition-delay: 0.075s;
 }
 
@@ -600,7 +600,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 /* line 18, ../sass/hamburguers-source/types/_emphatic.scss */
 .hamburger--emphatic .hamburger-inner::after {
-  top: 8px;
+  top: 6.5px;
   right: 0;
   transition: transform 0.125s cubic-bezier(0.6, 0.04, 0.98, 0.335), top 0.05s 0.125s linear, right 0.125s 0.175s ease-in;
 }
@@ -612,16 +612,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 /* line 33, ../sass/hamburguers-source/types/_emphatic.scss */
 .hamburger--emphatic.is-active .hamburger-inner::before {
-  left: -80px;
-  top: -80px;
-  transform: translate3d(80px, 80px, 0) rotate(45deg);
+  left: -62px;
+  top: -62px;
+  transform: translate3d(62px, 62px, 0) rotate(45deg);
   transition: left 0.125s ease-out, top 0.05s 0.125s linear, transform 0.125s 0.175s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 /* line 42, ../sass/hamburguers-source/types/_emphatic.scss */
 .hamburger--emphatic.is-active .hamburger-inner::after {
-  right: -80px;
-  top: -80px;
-  transform: translate3d(-80px, 80px, 0) rotate(-45deg);
+  right: -62px;
+  top: -62px;
+  transform: translate3d(-62px, 62px, 0) rotate(-45deg);
   transition: right 0.125s ease-out, top 0.05s 0.125s linear, transform 0.125s 0.175s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
@@ -643,7 +643,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 /* line 18, ../sass/hamburguers-source/types/_emphatic-r.scss */
 .hamburger--emphatic-r .hamburger-inner::after {
-  top: 8px;
+  top: 6.5px;
   right: 0;
   transition: transform 0.125s cubic-bezier(0.6, 0.04, 0.98, 0.335), top 0.05s 0.125s linear, right 0.125s 0.175s ease-in;
 }
@@ -655,16 +655,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 /* line 33, ../sass/hamburguers-source/types/_emphatic-r.scss */
 .hamburger--emphatic-r.is-active .hamburger-inner::before {
-  left: -80px;
-  top: 80px;
-  transform: translate3d(80px, -80px, 0) rotate(-45deg);
+  left: -62px;
+  top: 62px;
+  transform: translate3d(62px, -62px, 0) rotate(-45deg);
   transition: left 0.125s ease-out, top 0.05s 0.125s linear, transform 0.125s 0.175s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 /* line 42, ../sass/hamburguers-source/types/_emphatic-r.scss */
 .hamburger--emphatic-r.is-active .hamburger-inner::after {
-  right: -80px;
-  top: 80px;
-  transform: translate3d(-80px, -80px, 0) rotate(45deg);
+  right: -62px;
+  top: 62px;
+  transform: translate3d(-62px, -62px, 0) rotate(45deg);
   transition: right 0.125s ease-out, top 0.05s 0.125s linear, transform 0.125s 0.175s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
@@ -694,31 +694,31 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
  */
 /* line 6, ../sass/hamburguers-source/types/_slider.scss */
 .hamburger--slider .hamburger-inner {
-  top: 1px;
+  top: 0.75px;
 }
 /* line 9, ../sass/hamburguers-source/types/_slider.scss */
 .hamburger--slider .hamburger-inner::before {
-  top: 8px;
+  top: 6.5px;
   transition-property: transform, opacity;
   transition-timing-function: ease;
   transition-duration: 0.15s;
 }
 /* line 16, ../sass/hamburguers-source/types/_slider.scss */
 .hamburger--slider .hamburger-inner::after {
-  top: 16px;
+  top: 13px;
 }
 /* line 22, ../sass/hamburguers-source/types/_slider.scss */
 .hamburger--slider.is-active .hamburger-inner {
-  transform: translate3d(0, 8px, 0) rotate(45deg);
+  transform: translate3d(0, 6.5px, 0) rotate(45deg);
 }
 /* line 27, ../sass/hamburguers-source/types/_slider.scss */
 .hamburger--slider.is-active .hamburger-inner::before {
-  transform: rotate(-45deg) translate3d(-5.71429px, -6px, 0);
+  transform: rotate(-45deg) translate3d(-4.42857px, -5px, 0);
   opacity: 0;
 }
 /* line 32, ../sass/hamburguers-source/types/_slider.scss */
 .hamburger--slider.is-active .hamburger-inner::after {
-  transform: translate3d(0, -16px, 0) rotate(-90deg);
+  transform: translate3d(0, -13px, 0) rotate(-90deg);
 }
 
 /*
@@ -726,31 +726,31 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
  */
 /* line 6, ../sass/hamburguers-source/types/_slider-r.scss */
 .hamburger--slider-r .hamburger-inner {
-  top: 1px;
+  top: 0.75px;
 }
 /* line 9, ../sass/hamburguers-source/types/_slider-r.scss */
 .hamburger--slider-r .hamburger-inner::before {
-  top: 8px;
+  top: 6.5px;
   transition-property: transform, opacity;
   transition-timing-function: ease;
   transition-duration: 0.15s;
 }
 /* line 16, ../sass/hamburguers-source/types/_slider-r.scss */
 .hamburger--slider-r .hamburger-inner::after {
-  top: 16px;
+  top: 13px;
 }
 /* line 22, ../sass/hamburguers-source/types/_slider-r.scss */
 .hamburger--slider-r.is-active .hamburger-inner {
-  transform: translate3d(0, 8px, 0) rotate(-45deg);
+  transform: translate3d(0, 6.5px, 0) rotate(-45deg);
 }
 /* line 27, ../sass/hamburguers-source/types/_slider-r.scss */
 .hamburger--slider-r.is-active .hamburger-inner::before {
-  transform: rotate(45deg) translate3d(5.71429px, -6px, 0);
+  transform: rotate(45deg) translate3d(4.42857px, -5px, 0);
   opacity: 0;
 }
 /* line 32, ../sass/hamburguers-source/types/_slider-r.scss */
 .hamburger--slider-r.is-active .hamburger-inner::after {
-  transform: translate3d(0, -16px, 0) rotate(90deg);
+  transform: translate3d(0, -13px, 0) rotate(90deg);
 }
 
 /*
@@ -828,17 +828,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
  */
 /* line 6, ../sass/hamburguers-source/types/_spring.scss */
 .hamburger--spring .hamburger-inner {
-  top: 1px;
+  top: 0.75px;
   transition: background-color 0s 0.13s linear;
 }
 /* line 10, ../sass/hamburguers-source/types/_spring.scss */
 .hamburger--spring .hamburger-inner::before {
-  top: 8px;
+  top: 6.5px;
   transition: top 0.1s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1), transform 0.13s cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 /* line 16, ../sass/hamburguers-source/types/_spring.scss */
 .hamburger--spring .hamburger-inner::after {
-  top: 16px;
+  top: 13px;
   transition: top 0.2s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1), transform 0.13s cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 /* line 24, ../sass/hamburguers-source/types/_spring.scss */
@@ -850,13 +850,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .hamburger--spring.is-active .hamburger-inner::before {
   top: 0;
   transition: top 0.1s 0.15s cubic-bezier(0.33333, 0, 0.66667, 0.33333), transform 0.13s 0.22s cubic-bezier(0.215, 0.61, 0.355, 1);
-  transform: translate3d(0, 8px, 0) rotate(45deg);
+  transform: translate3d(0, 6.5px, 0) rotate(45deg);
 }
 /* line 35, ../sass/hamburguers-source/types/_spring.scss */
 .hamburger--spring.is-active .hamburger-inner::after {
   top: 0;
   transition: top 0.2s cubic-bezier(0.33333, 0, 0.66667, 0.33333), transform 0.13s 0.22s cubic-bezier(0.215, 0.61, 0.355, 1);
-  transform: translate3d(0, 8px, 0) rotate(-45deg);
+  transform: translate3d(0, 6.5px, 0) rotate(-45deg);
 }
 
 /*
@@ -872,7 +872,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 /* line 13, ../sass/hamburguers-source/types/_spring-r.scss */
 .hamburger--spring-r .hamburger-inner::after {
-  top: -16px;
+  top: -13px;
   transition: top 0.2s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1), opacity 0s linear;
 }
 /* line 19, ../sass/hamburguers-source/types/_spring-r.scss */
@@ -881,7 +881,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 /* line 26, ../sass/hamburguers-source/types/_spring-r.scss */
 .hamburger--spring-r.is-active .hamburger-inner {
-  transform: translate3d(0, -8px, 0) rotate(-45deg);
+  transform: translate3d(0, -6.5px, 0) rotate(-45deg);
   transition-delay: 0.22s;
   transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
 }
@@ -1180,6 +1180,17 @@ body, html {
   padding-left: 18.2%;
 }
 
+@media (max-width: 767px) {
+  /* line 75, ../sass/_sidebar.scss */
+  .wrapper.toggled #sidebar-wrapper {
+    width: 29%;
+  }
+
+  /* line 79, ../sass/_sidebar.scss */
+  .wrapper.toggled {
+    padding-left: 29%;
+  }
+}
 /* line 2, ../sass/_main.scss */
 #page-content-wrapper button.toggle-button {
   position: absolute;
@@ -1198,11 +1209,8 @@ body, html {
   background-position: left top;
   background-size: cover;
   min-height: 720px;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
 }
-/* line 24, ../sass/_main.scss */
+/* line 20, ../sass/_main.scss */
 #page-content-wrapper .center-content-frame {
   width: 100%;
   height: 100%;
@@ -1211,7 +1219,7 @@ body, html {
   justify-content: center;
   align-items: center;
 }
-/* line 33, ../sass/_main.scss */
+/* line 29, ../sass/_main.scss */
 #page-content-wrapper .center-content-frame:before {
   position: absolute;
   content: 'a';
@@ -1221,41 +1229,43 @@ body, html {
   width: 100%;
   height: 100%;
 }
-/* line 43, ../sass/_main.scss */
+/* line 39, ../sass/_main.scss */
 #page-content-wrapper .center-content-frame.red-layer:before {
   background: rgba(150, 30, 0, 0.75);
 }
-/* line 47, ../sass/_main.scss */
+/* line 43, ../sass/_main.scss */
 #page-content-wrapper .center-content-frame.blue-layer:before {
   background: rgba(0, 30, 50, 0.75);
 }
-/* line 51, ../sass/_main.scss */
+/* line 47, ../sass/_main.scss */
 #page-content-wrapper .center-content-frame.green-layer:before {
   background: rgba(0, 30, 0, 0.75);
 }
-/* line 55, ../sass/_main.scss */
+/* line 51, ../sass/_main.scss */
 #page-content-wrapper .center-content-frame.grey-layer:before {
   background: rgba(30, 30, 30, 0.75);
 }
-/* line 59, ../sass/_main.scss */
+/* line 55, ../sass/_main.scss */
 #page-content-wrapper .center-content-frame.brown-layer:before {
   background: rgba(139, 69, 19, 0.75);
 }
-/* line 63, ../sass/_main.scss */
+/* line 59, ../sass/_main.scss */
 #page-content-wrapper .home-title {
   position: relative;
 }
-/* line 65, ../sass/_main.scss */
+/* line 61, ../sass/_main.scss */
 #page-content-wrapper .home-title .main-title {
   font-family: HelveticaNeueBlkCn, sans-serif;
   color: #FFFFFF;
   text-transform: uppercase;
-  font-size: 3em;
+  font-size: 3.95em;
 }
-/* line 72, ../sass/_main.scss */
+/* line 68, ../sass/_main.scss */
 #page-content-wrapper .home-title .small-text-title {
   font-family: HelveticaNeueLt, sans-serif;
   color: #FFFFFF;
   text-transform: uppercase;
-  font-size: 1em;
+  font-size: 0.8em;
+  margin-bottom: 0.8em;
+  display: inline-block;
 }
