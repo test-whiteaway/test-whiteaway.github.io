@@ -1,0 +1,80 @@
+#page-content-wrapper {
+  button.toggle-button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    &:focus {
+      outline: 0;
+    } 
+  }
+
+  .bg-nycity {
+    background-image: url(../img/background-ny.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover;
+    min-height: 720px;
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  }
+
+  .center-content-frame {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .center-content-frame:before {
+    position: absolute;
+    content: 'a';
+    color: transparent;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .center-content-frame.red-layer:before {
+    background: rgba(150, 30, 0, 0.75);
+  }
+
+  .center-content-frame.blue-layer:before {
+    background: rgba(0, 30, 50, 0.75);
+  }
+
+  .center-content-frame.green-layer:before {
+    background: rgba(0, 30, 0, 0.75);
+  }
+
+  .center-content-frame.grey-layer:before {
+    background: rgba(30, 30, 30, 0.75);
+  }
+
+  .center-content-frame.brown-layer:before {
+    background: rgba(139,69,19, 0.75);
+  }
+
+  .home-title {
+    position: relative;
+      .main-title {
+      font-family: $helv-black;
+      color: $white;
+      text-transform: uppercase;
+      font-size: 3em;
+    }
+
+    .small-text-title {
+      font-family: $helv-thin;
+      color: $white;
+      text-transform: uppercase;
+      font-size: 1em;
+    }
+  }
+
+}

@@ -1,0 +1,28 @@
+$sidebar-width: 18.2%;
+$sidebar-color: #f1f1f1;
+$dark-grey: #3C3C3C;
+
+$white-cross: #F8F5F5;
+$white: #FFFFFF;
+
+@font-face {
+  font-family: HelveticaNeueBlkCn;
+  src: url("../fonts/HelveticaNeueLTStd-BlkCn.otf") format("opentype");
+}
+
+$helv-black: HelveticaNeueBlkCn, sans-serif;
+
+@font-face {
+  font-family: HelveticaNeueMd;
+  src: url("../fonts/HelveticaNeueLTStd-Md.otf") format("opentype");
+}
+
+$helv-reg: HelveticaNeueMd, sans-serif;
+
+@font-face {
+  font-family: HelveticaNeueLt;
+  src: url("../fonts/HelveticaNeueLTStd-Lt.otf") format("opentype");
+}
+
+$helv-thin: HelveticaNeueLt, sans-serif;
+
