@@ -270,12 +270,12 @@ body, html {
 @media (max-width: 767px) {
   /* line 75, ../sass/_sidebar.scss */
   .wrapper.toggled #sidebar-wrapper {
-    width: 29%;
+    width: 35%;
   }
 
   /* line 79, ../sass/_sidebar.scss */
   .wrapper.toggled {
-    padding-left: 29%;
+    padding-left: 35%;
   }
 }
 /* line 2, ../sass/_main.scss */
@@ -355,4 +355,11 @@ body, html {
   font-size: 0.8em;
   margin-bottom: 0.8em;
   display: inline-block;
+}
+
+@media (max-width: 767px) {
+  /* line 82, ../sass/_main.scss */
+  #page-content-wrapper .home-title .main-title {
+    font-size: 2.95em;
+  }
 }
